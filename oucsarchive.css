@@ -1,0 +1,409 @@
+/* special objects */
+
+code.Button {
+    white-space: nowrap;
+    color: Red;
+    border: 1px solid #999;
+    padding: 0 4px;
+    background-color: #eee;
+}
+code.Command {
+    font-family: monospace;
+    color: blue;
+    font-weight: bold;
+}
+code.Value {
+    font-family: monospace;
+    color: green;
+}
+code.Code {
+    font-family: monospace;
+    color: red;
+}
+code.Field {
+    font-family: monospace;
+    white-space: nowrap;
+    color: red;
+}
+code.Filespec {
+    font-family: monospace;
+    color: red;
+}
+code.Input {
+    font-family: monospace;
+    color: green;
+}
+code.Key {
+    font-family: monospace;
+    text-decoration: underline;
+    color: green;
+}
+code.Link {
+    font-family: monospace;
+    white-space: nowrap;
+    color: green;
+    text-decoration: underline;
+}
+code.Menu {
+    font-family: monospace;
+    white-space: nowrap;
+    color: red;
+}
+code.Keyword {
+    font-family: monospace;
+    color: blue;
+}
+code.Output {
+    font-family: monospace;
+    color: red;
+}
+.Screen {
+    display: block;
+    white-space: pre;
+    background-color: #FFCC99;
+}
+.Program {
+    display: block;
+    white-space: pre;
+}
+code.Icon {
+    font-family: monospace;
+    white-space: nowrap;
+    text-decoration: underline;
+}
+code.Label {
+    background-color:#DDEEEE;
+    color:#000333;
+    font-weight:bold;
+    padding: 3px;
+    font-style: italic;
+    white-space: nowrap;
+}
+span.term {
+   font-style: italic;
+}
+.Value {
+    font-family: monospace;
+    color: green;
+}
+.Code {
+    font-family: monospace;
+    color: red;
+}
+.Filespec {
+    font-family: monospace;
+    color: red;
+}
+
+
+.QandA{
+    display:block;
+    margin:15px;
+    padding:15px;
+    border:1px solid gray;
+}
+
+.alpha1{
+    font-family:sans-serif;
+    color:#000066;
+    font-weight:bold;
+    font-size:1.5em;
+    text-align:center;
+
+}
+
+.alpha{
+    font-family:sans-serif;
+    color:#000066;
+    font-weight:bold;
+    font-size:2em;
+    border-bottom:2px solid #0082EF;
+}
+
+.alphnumeric{
+    list-style-type:upper-alpha;
+}
+
+.blue{
+    color:blue;
+}
+
+.bookinglabel{
+    font-weight:bold;
+    background-color:#FFFFCE;
+}
+
+.centretext{
+    text-align:center;
+}
+
+.centre{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    text-align:center;
+}
+
+.clear{
+    clear:both;
+}
+
+.dbbackground{
+    background-color:#D2E3F3;
+    font-family:sans-serif;
+    color:#000;
+    font-weight:normal;
+    font-size:medium;
+}
+
+
+.divlabel{
+    font-size:large;
+    padding-top:10pt;
+    font-weight:bold;
+    background-color:#AAAA00;
+}
+
+.find{
+    font-size:1em;
+    font-weight:bold;
+
+}
+
+.floatimage{
+    float:left;
+    margin-right:20px;
+    vertical-align:top;
+}
+
+.green{
+    color:green;
+}
+
+.hide{
+    display:none;
+}
+
+.important{
+    color:red;
+    font-weight:bold;
+}
+
+
+.label{
+    font-weight:bold;
+    background-color:#AAAAAA;
+}
+
+
+.linktext{
+    font-family:sans-serif;
+    color:#90CCF4;
+    font-weight:bold}
+
+.liststyle{
+    list-style-type:none;
+    left:0%;
+}
+
+.pic-left{
+    float:left;
+    padding:5px;
+    clear:left;
+    margin:0px 1.25em 0px 0px;
+}
+
+.pic-right{
+    float:right;
+    padding:5px;
+}
+
+
+.red{
+    color:red;
+}
+
+.removebutton{
+    list-style:none;
+    background-color:#FAFAD2;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.right{
+    float:right;
+}
+
+.textright{
+    text-align:right;
+}
+
+.yellow{
+    color:#ffff00;
+}
+
+a img{
+    border:none;
+}
+
+a.special:visited,
+a.special:link
+{
+    color:#ffcc00;
+}
+
+
+div.box ul li{
+    list-style:none;
+    display:block;
+    margin-left:0.5em;
+    margin-top:1pt;
+    margin-bottom:2pt;
+    text-indent:-0.5em;
+}
+
+div.box ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+dl.topics dd a{
+    font-size:0.9em;
+    color:#000;
+}
+
+dl.topics dd{
+    padding:10px 5px;
+    background-color:#fff;
+}
+
+dl.topics dt{
+    padding:5px 5px 3px 3px;
+    color:#000;
+    border-bottom:2px solid #0082EF;
+    font-weight:bold;
+}
+
+dl.topics{
+    border:1px solid #eee;
+    margin:5px;
+    font-size:small;
+}
+
+img.center{
+    margin-left:20pt;
+}
+
+img.floatimage{
+    float:left;
+}
+
+img.inlinetable{
+    border-style:none;
+}
+
+img.inline{
+    border-style:none;
+}
+
+img.rightnoborder{
+    float:right;
+    border-style:none;
+}
+
+img.right{
+    float:right;
+}
+
+img.sld{
+    float:right;
+    top:0;
+}
+
+img.textleft{
+    float:left;
+    border:none;
+    margin-right:20px;
+}
+
+img.wrap{
+    float:left;
+    margin:5px;
+    padding-right:15px;
+}
+
+ol.lower-alpha{
+    list-style-type:lower-alpha;
+}
+
+ol.lower-roman{
+    list-style-type:lower-roman;
+}
+
+ol.upper-alpha{
+    list-style-type:upper-alpha;
+}
+
+ol.upper-roman{
+    list-style-type:upper-roman;
+}
+
+span.nowrap{
+    white-space:nowrap;
+    text-decoration:none;
+}
+
+table.row1 img{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    display:block;
+}
+
+table.row1 td{
+    border:1px solid #ccc;
+    text-align:center;
+}
+
+td.blue{
+    background-color:blue;
+    color:black;
+}
+
+td.green{
+    background-color:green;
+    color:white;
+}
+
+td.header{
+    font-weight:bold;
+}
+
+td.red{
+    background-color:red;
+    color:black;
+}
+
+td.yellow{
+    background-color:#ffff00;
+    color:black;
+}
+
+th{
+    font-weight:bold;
+}
+
+tr.label td{
+    font-weight:bold;
+    background-color:#AAAAAA;
+}
+tr.summaryline{
+    border-color:red;
+}
+.caption {
+    font-size: 0.8em;
+    clear: both;
+    padding: 0 5px 5px 0;
+    font-weight : bold;
+}

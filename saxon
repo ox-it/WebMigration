@@ -1,0 +1,6 @@
+#!/bin/sh
+scriptdir=`dirname $0`
+APPHOME=`(cd $scriptdir; pwd)`
+export CLASSPATH=$APPHOME/saxon9he.jar:$CLASSPATH
+java -Xmx8000m net.sf.saxon.Transform ${1+"$@"}
+
